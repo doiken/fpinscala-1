@@ -1,0 +1,20 @@
+// 'idea-scala-facet' plugin includes both, 'idea' and 'scala' plugins
+apply plugin: 'idea-scala-facet'
+apply plugin: "java" // FOR testCompile
+
+repositories{
+    mavenCentral()
+}
+
+dependencies{
+    // 'scalaApi' configuration is automatically added by the plugin.
+    // 'compile' configuration is made to extend the 'scalaApi' configuration.
+    // All libraries in this configuration will be included during compilation.
+    // These libraries will not appear as direct dependencies of the module, but
+    // will be indirectly included in the 'scala-library' library of the Scala-facet.
+    scalaApi 'org.scala-lang:scala-library:2.10.3'
+    scalaTools 'org.scala-lang:scala-library:2.10.3'
+    scalaTools 'org.scala-lang:scala-compiler:2.10.3'
+    testCompile 'org.specs2:specs2_2.10:2.3.6'
+}
+

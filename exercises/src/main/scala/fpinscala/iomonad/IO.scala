@@ -1,3 +1,4 @@
+/*
 package fpinscala.iomonad
 
 object Exercises {
@@ -193,4 +194,5 @@ object Exercises {
   implicit def freeLift[F[_],G[_]](fg: F ~> G)(implicit G: Functor[G])
     : ({type f[x]=FreeFunctor[F,x]})#f ~> G = ???
 }
+*/
 

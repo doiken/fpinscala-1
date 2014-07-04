@@ -6,3 +6,16 @@ project/boot
 .history
 project.vim
 *.old
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea
+out/
+
+# build files
+BUILD_DATE
+build/
+.gradle
+target/

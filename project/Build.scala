@@ -36,4 +36,5 @@ object FPInScalaBuild extends Build {
        "Try `project exercises' before compile, or upgrading your JDK.")
     }
   }
+
 }

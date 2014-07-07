@@ -6,3 +6,17 @@ project/boot
 .history
 project.vim
 *.old
+
+.DS_Store
+Thumnail.db
+target/
+lib_managed/
+src_managed/
+project/boot/
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea
+

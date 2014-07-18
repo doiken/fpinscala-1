@@ -1,6 +1,6 @@
 import org.specs2.mutable._
 
-class HelloWorldSpec extends Specification {
+class GettingStartedSpec extends Specification {
 
   "The 'Hello world' string" should {
     "contain 11 characters" in {
